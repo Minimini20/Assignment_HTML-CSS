@@ -1,0 +1,141 @@
+h4{
+    margin-bottom:0%;
+    margin-top:2%;
+}
+.row{
+    width:100vw;
+    display: flex;
+    height:35px;
+}
+.left1{
+    background-color: red;
+   flex-grow: 2;
+}
+.right1{
+    background-color: blue;
+    flex-grow: 2;
+}
+.left2{
+    background-color: green;
+    flex-grow: 9.5; 
+}
+.right2{
+    background-color: blue;
+    flex-grow: 0.5; 
+}
+.left3{
+    background-color: red;
+    flex-grow: 0.5; 
+}
+.mid3{
+    background-color: green;
+    flex-grow: 9.5; 
+}
+.right3{
+    background-color: blue;
+    flex-grow: 0.5; 
+}
+.left4{
+    background-color: red;
+   flex-grow: 9.5;
+}
+.right4{
+    background-color: blue;
+    flex-grow: 0.5;
+}
+.out5{
+    background-color: green;
+    flex-grow: 1;
+    display: flex;         
+    justify-content: center;
+    align-items: center;
+}
+.in5{
+    background-color: red;
+    /* margin: auto ; */
+    height:20px;
+    width:20px;
+}
+.out6{
+    background-color: red;
+    flex-grow: 1;
+    display: flex;         
+    justify-content: center;
+}
+.in6{
+    background-color: blue;
+    height:100%;
+    width:45px;
+}
+.left7{
+    background-color: red;
+    flex-grow: 0.5;
+}
+.rightout7{
+    background-color: blue;
+    flex-grow: 9.5;
+    display:flex;
+    align-items: center;
+}
+.rightin7{
+    background-color: green;
+    height:45%;
+    width:100%;
+}
+.out8{
+    background-color: green;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between; 
+}
+.in8{
+    background-color: orange;
+    height:100%;
+    width:4.5%;
+}
+.out9{
+    background-color: orange;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around; 
+}
+.in9{
+    background-color: green;
+    height:100%;
+    width:2%;    
+}
+@media screen and (max-width:400px){
+    .left2{
+        flex-grow: 8.5;
+    }
+    .right2{
+        flex-grow: 1.5;
+    }
+
+    .left3{
+        flex-grow: 1.5; 
+    }
+    .mid3{
+        flex-grow: 7; 
+    }
+    .right3{
+        flex-grow: 1.5; 
+    }
+    .left4{
+       flex-grow: 8.5;
+    }
+    .right4{
+        flex-grow: 1.5;
+    }
+    .in8{
+        width:15%;
+    }
+    .out9{
+        flex-grow: 1;
+    }
+    .in9{
+        width:5%;    
+    }
+}
